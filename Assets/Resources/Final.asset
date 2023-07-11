@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Final
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 36a5c25e-6b58-4492-9118-becd988a0f96
+    PortName: Next
+    TargetNodeGUID: 83289fa5-ae57-4812-96e4-dcab4839a7c4
+  - BaseNodeGUID: 83289fa5-ae57-4812-96e4-dcab4839a7c4
+    PortName: Obstruccion
+    TargetNodeGUID: 3531c7ec-ff1b-4858-b717-34adb6823d36
+  - BaseNodeGUID: 83289fa5-ae57-4812-96e4-dcab4839a7c4
+    PortName: Asma
+    TargetNodeGUID: bcb6fb68-ed45-435f-a023-b33119bcc050
+  - BaseNodeGUID: 83289fa5-ae57-4812-96e4-dcab4839a7c4
+    PortName: "Neumon\xEDa"
+    TargetNodeGUID: ddf32f90-f8af-4354-8080-87fd3132abcd
+  - BaseNodeGUID: 83289fa5-ae57-4812-96e4-dcab4839a7c4
+    PortName: Fibrosis
+    TargetNodeGUID: 8240929b-cbd7-41e0-899a-b69d256d54d7
+  - BaseNodeGUID: bcb6fb68-ed45-435f-a023-b33119bcc050
+    PortName: Option 1
+    TargetNodeGUID: 0106abed-3805-48b9-8df3-9fb0bb57c204
+  - BaseNodeGUID: 3531c7ec-ff1b-4858-b717-34adb6823d36
+    PortName: Option 1
+    TargetNodeGUID: c0ce4b2e-61c3-4797-9e99-e7cb7809fda2
+  - BaseNodeGUID: ddf32f90-f8af-4354-8080-87fd3132abcd
+    PortName: Option 1
+    TargetNodeGUID: 30a4ce22-a950-4d9e-b047-affc4858e271
+  - BaseNodeGUID: 8240929b-cbd7-41e0-899a-b69d256d54d7
+    PortName: Option 1
+    TargetNodeGUID: 3534335d-013b-4ecd-a542-50f81cd2f4b8
+  DialogueNodeData:
+  - NodeGUID: 83289fa5-ae57-4812-96e4-dcab4839a7c4
+    DialogueText: "\xBFCu\xE1l es tu diagn\xF3stico?"
+    Position: {x: 219.2, y: 134.40001}
+  - NodeGUID: bcb6fb68-ed45-435f-a023-b33119bcc050
+    DialogueText: Dialogue Node
+    Position: {x: 621.6, y: 134.40001}
+  - NodeGUID: 3531c7ec-ff1b-4858-b717-34adb6823d36
+    DialogueText: Dialogue Node
+    Position: {x: 621.6, y: 3.1999989}
+  - NodeGUID: ddf32f90-f8af-4354-8080-87fd3132abcd
+    DialogueText: Dialogue Node
+    Position: {x: 621.6, y: 256}
+  - NodeGUID: 8240929b-cbd7-41e0-899a-b69d256d54d7
+    DialogueText: Dialogue Node
+    Position: {x: 621.6, y: 398.4}
+  - NodeGUID: c0ce4b2e-61c3-4797-9e99-e7cb7809fda2
+    DialogueText: CerrarDialogo
+    Position: {x: 905.6, y: 3.1999989}
+  - NodeGUID: 0106abed-3805-48b9-8df3-9fb0bb57c204
+    DialogueText: CerrarDialogo
+    Position: {x: 905.6, y: 133.6}
+  - NodeGUID: 3534335d-013b-4ecd-a542-50f81cd2f4b8
+    DialogueText: CerrarDialogo
+    Position: {x: 905.6, y: 398.4}
+  - NodeGUID: 30a4ce22-a950-4d9e-b047-affc4858e271
+    DialogueText: CerrarDialogo
+    Position: {x: 905.6, y: 256}
+  ExposedProperties: []
+  CommentBlockData: []

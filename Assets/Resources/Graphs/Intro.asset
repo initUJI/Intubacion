@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 8ca46223-6031-4363-92de-aad5a39a1ba3
+    PortName: Next
+    TargetNodeGuid: dd4972bc-78da-47c6-9212-f67e4f9407a3
+  - BaseNodeGuid: dd4972bc-78da-47c6-9212-f67e4f9407a3
+    PortName: Next Dialog
+    TargetNodeGuid: 56414067-71cf-47c6-ac36-f0cad1496f5f
+  DialogNodes:
+  - Guid: dd4972bc-78da-47c6-9212-f67e4f9407a3
+    Content:
+      characterID: 6593d12f-53fb-41ab-af98-219a5f108081
+      emotion: 0
+      DialogText: Hola, me llamo Adam
+    Position: {x: 223.2, y: 134.4}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 56414067-71cf-47c6-ac36-f0cad1496f5f
+    Content:
+      characterID: 6593d12f-53fb-41ab-af98-219a5f108081
+      emotion: 0
+      DialogText: "Y llevo unos d\xEDas bastante constipado..."
+    Position: {x: 503.2, y: 134.4}
+    Type: 1
+    Choices:
+    - Next Dialog

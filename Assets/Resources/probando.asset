@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: probando
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 0df21ef7-db2a-45e2-84b4-daacda0f239c
+    PortName: Next
+    TargetNodeGUID: b130a049-b5d2-4d09-963d-d3a0b8605fb1
+  - BaseNodeGUID: 349e32a7-df75-4cc1-9a67-2d70db80f92f
+    PortName: "\xBFTe encuentras cansado?"
+    TargetNodeGUID: 181fe4eb-2886-47e8-875f-a2c6ad9b0a86
+  - BaseNodeGUID: 349e32a7-df75-4cc1-9a67-2d70db80f92f
+    PortName: "\xBFTe duele el pecho?"
+    TargetNodeGUID: 7d499346-a3cc-4032-b185-ab458a8484a8
+  - BaseNodeGUID: 0801a02c-7946-4ffc-be6d-c5d5072e7edc
+    PortName: "\xBFSe le hinchan las piernas?"
+    TargetNodeGUID: 63a136ed-e3e3-49a4-9f6b-39b5e9a4ee93
+  - BaseNodeGUID: 7d499346-a3cc-4032-b185-ab458a8484a8
+    PortName: "\xBFTe encuentras cansado?"
+    TargetNodeGUID: e2ceb2ed-7e1a-469f-ba9d-f4c328d9d5b7
+  - BaseNodeGUID: 181fe4eb-2886-47e8-875f-a2c6ad9b0a86
+    PortName: "\xBFTe duele el pecho?"
+    TargetNodeGUID: 0801a02c-7946-4ffc-be6d-c5d5072e7edc
+  - BaseNodeGUID: 181fe4eb-2886-47e8-875f-a2c6ad9b0a86
+    PortName: "\xBFTienes tos?"
+    TargetNodeGUID: 6e42ecf8-b965-4eee-899b-aa2477f95b3f
+  - BaseNodeGUID: e2ceb2ed-7e1a-469f-ba9d-f4c328d9d5b7
+    PortName: "\xBFSe le hinchan las piernas?"
+    TargetNodeGUID: f4f4f4b1-4c6a-40fc-8f22-00878bf6df2a
+  - BaseNodeGUID: f4f4f4b1-4c6a-40fc-8f22-00878bf6df2a
+    PortName: Ok
+    TargetNodeGUID: 9e09a500-53db-49b7-ab90-af7d2b7c058f
+  - BaseNodeGUID: 6e42ecf8-b965-4eee-899b-aa2477f95b3f
+    PortName: "\xBFSe le hinchan las piernas?"
+    TargetNodeGUID: 912082f8-1ca1-4ed1-914b-e161b4bd1924
+  - BaseNodeGUID: 912082f8-1ca1-4ed1-914b-e161b4bd1924
+    PortName: Ok
+    TargetNodeGUID: 6ad15e43-8655-4b77-95f4-783b166f3df2
+  - BaseNodeGUID: 63a136ed-e3e3-49a4-9f6b-39b5e9a4ee93
+    PortName: Ok
+    TargetNodeGUID: 0c8ba6d7-ba3f-4e4a-bbcf-768fcf095187
+  - BaseNodeGUID: b130a049-b5d2-4d09-963d-d3a0b8605fb1
+    PortName: "\xBFQu\xE9 ocurre?"
+    TargetNodeGUID: 349e32a7-df75-4cc1-9a67-2d70db80f92f
+  DialogueNodeData:
+  - NodeGUID: 349e32a7-df75-4cc1-9a67-2d70db80f92f
+    DialogueText: "Hace unos d\xEDas estoy constipado y no puedo respirar bien. Se
+      puso a llover y me dio algo de fr\xEDo."
+    Position: {x: 676.8, y: 200}
+  - NodeGUID: 0801a02c-7946-4ffc-be6d-c5d5072e7edc
+    DialogueText: "S\xED, sobretodo cuando toso. Tengo mucha tos."
+    Position: {x: 1993.6, y: 2.3999996}
+  - NodeGUID: 7d499346-a3cc-4032-b185-ab458a8484a8
+    DialogueText: "S\xED, sobretodo cuando toso. Tengo mucha tos."
+    Position: {x: 1516.8, y: 322.4}
+  - NodeGUID: 181fe4eb-2886-47e8-875f-a2c6ad9b0a86
+    DialogueText: "S\xED, bastante. Me encuentro muy fatigado"
+    Position: {x: 1516.8, y: 77.600006}
+  - NodeGUID: e2ceb2ed-7e1a-469f-ba9d-f4c328d9d5b7
+    DialogueText: "S\xED, bastante. Me encuentro muy fatigado"
+    Position: {x: 1993.6, y: 322.4}
+  - NodeGUID: f4f4f4b1-4c6a-40fc-8f22-00878bf6df2a
+    DialogueText: No, no se me hinchan
+    Position: {x: 2472.8, y: 322.4}
+  - NodeGUID: 6e42ecf8-b965-4eee-899b-aa2477f95b3f
+    DialogueText: "S\xED, tengo tos. Adem\xE1s me duele el pecho cuando toso."
+    Position: {x: 1942.4, y: 151.2}
+  - NodeGUID: 912082f8-1ca1-4ed1-914b-e161b4bd1924
+    DialogueText: No, no se me hinchan
+    Position: {x: 2472.8, y: 151.2}
+  - NodeGUID: 63a136ed-e3e3-49a4-9f6b-39b5e9a4ee93
+    DialogueText: No, no se me hinchan
+    Position: {x: 2472.8, y: 2.3999996}
+  - NodeGUID: 0c8ba6d7-ba3f-4e4a-bbcf-768fcf095187
+    DialogueText: CerrarDialogo
+    Position: {x: 2789.6, y: 3.1999989}
+  - NodeGUID: 6ad15e43-8655-4b77-95f4-783b166f3df2
+    DialogueText: CerrarDialogo
+    Position: {x: 2789.6, y: 150.40001}
+  - NodeGUID: 9e09a500-53db-49b7-ab90-af7d2b7c058f
+    DialogueText: CerrarDialogo
+    Position: {x: 2789.6, y: 322.4}
+  - NodeGUID: b130a049-b5d2-4d09-963d-d3a0b8605fb1
+    DialogueText: '[Name] Hola me llamo Adam y me encuentro algo enfermo'
+    Position: {x: 165.6, y: 393.59998}
+  ExposedProperties:
+  - PropertyName: Name
+    PropertyValue: Inicio
+  CommentBlockData: []

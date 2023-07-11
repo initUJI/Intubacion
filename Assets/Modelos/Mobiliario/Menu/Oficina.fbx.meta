@@ -1,0 +1,327 @@
+fileFormatVersion: 2
+guid: 7632ccd75dadfe840a94582e3fd134f5
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01___Default
+    second: {fileID: 2100000, guid: faa56da4d7f4caf40b50505e32517b58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial
+    second: {fileID: 2100000, guid: 792f0b30530d5664ebc87f5b9e32657b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Cactus_1024
+    second: {fileID: 2100000, guid: c73d1b3f553c3954a9510de7acce159e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Clipboard_Notepad_1024
+    second: {fileID: 2100000, guid: 6fe14e71f1f56cb4280993f25005233c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Filebox_1024
+    second: {fileID: 2100000, guid: 1f9ec7ddc774f6449a93e48dc9bf381b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Lamps_CCTV_2048.001
+    second: {fileID: 2100000, guid: c083ddcff92d74248af94ac3f43cb606, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_OfficeStool_Bin_2048
+    second: {fileID: 2100000, guid: 8a385d903f999b64aa7348c66ec85ff2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Office_PinBoard_Photo_Notepad_1024
+    second: {fileID: 2100000, guid: e23e206dd2c4971408c7d8c72ca80afa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Table_2048
+    second: {fileID: 2100000, guid: 06dada3504d955c49892632aa2de0830, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 7bd8a3be94346ed49ab7fad44b0b6270, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PhotoFrame_20x30_likeA4_512
+    second: {fileID: 2100000, guid: 79edf705669ea2549916fb4a66ead4c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poster_1024
+    second: {fileID: 2100000, guid: 67288d89469b0294cba2628dd7c7dffe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: greymat
+    second: {fileID: 2100000, guid: 62394d749dae5cc46b0e51ccc60dfe76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: f2416bc88ff1d2f42a024655bfbfdeb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1.001
+    second: {fileID: 2100000, guid: 1118cd31c3b5b7c4a98f2c7c9ed0d934, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 1b292865e3e16e5479a6fd1a24352d7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: medicineboxv3_box_blinn
+    second: {fileID: 2100000, guid: 78a1101af71bc1e47aea90b8da24876d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: medicineboxv3_metal_blinn
+    second: {fileID: 2100000, guid: 5ce57e4da7885f943bfb5fda1fa28350, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 01___Default_baseColor
+    second: {fileID: 2800000, guid: b720a92516f54894687aee0d44d500eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 01___Default_emissive
+    second: {fileID: 2800000, guid: 04c19bf4dc3a6884380618e638f6478a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 01___Default_normal
+    second: {fileID: 2800000, guid: a11aee710619eb04d9560685f015062a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial_albedo
+    second: {fileID: 2800000, guid: 7a27b75b25d11044983c2408e2947ab7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial_metallic
+    second: {fileID: 2800000, guid: a4ca256124d3a3b4c917a1d02cccb672, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial_normal
+    second: {fileID: 2800000, guid: d3fdaec819affb1469801ad09c3e6b51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DefaultMaterial_roughness
+    second: {fileID: 2800000, guid: 5bf0582c0c6d099478c1f81be61d1a2e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Cactus_1024_Normal_OGL_JPEG
+    second: {fileID: 2800000, guid: 285d632ca352c4a42aaee8ac2adb9051, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Clipboard_Notepad_1024_Normal_OGL_JPEG
+    second: {fileID: 2800000, guid: 66a6d709ebc3b0b4d929cce2e4fdcbd6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Filebox_1024_Normal_OGL_JPEG
+    second: {fileID: 2800000, guid: 90149e95727bd5e4cafcd0bfd965731b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Lamps_CCTV_2048_Normal_OGL_JPEG
+    second: {fileID: 2800000, guid: 42e3d70ef67b3884794ba0f06251d688, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Lamps_CCTV_2048_Opacity
+    second: {fileID: 2800000, guid: 208262118822eed46b2a0667d0c866ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_OfficeStool_Bin_2048_Normal_OGL_JPEG
+    second: {fileID: 2800000, guid: b4240a53b5e896749b4d016a6a0c48c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_OfficeStool_Bin_2048_Opacity
+    second: {fileID: 2800000, guid: e7cda0f309d92dc43b54cfca05bc52ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Office_PinBoard_Photo_Notepad_1024_Normal_OGL_JPEG
+    second: {fileID: 2800000, guid: 4b22cc81258a3f545827a6f23d2bf806, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Office_PinBoard_Photo_Notepad_1024_Opacity
+    second: {fileID: 2800000, guid: 00d33e9b0f4b0454481c564399584008, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Table_2048_Normal_OGL_JPEG
+    second: {fileID: 2800000, guid: 1134a53ce063c88419677793ee22e814, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PhotoFrame_20x30_likeA4_512_Normal_OGL_JPEG
+    second: {fileID: 2800000, guid: a5986d3d219da614f920b37a909d4c76, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Poster_1024_Normal_OGL_JPEG
+    second: {fileID: 2800000, guid: aa1aee6c27a2cc144ba41992744bed34, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: greymat_baseColor
+    second: {fileID: 2800000, guid: 7b515d2674e95f24b911333b695b0b6b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: greymat_normal
+    second: {fileID: 2800000, guid: 2828dca9106a2c6499d5b46b231afb3e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert1_baseColor
+    second: {fileID: 2800000, guid: 6ccb0e7d0c712824dad0ea9a8d64f582, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert1_normal
+    second: {fileID: 2800000, guid: 0ac9e85d40d4c234592c826118f2c06c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert2_baseColor
+    second: {fileID: 2800000, guid: cf21dee2115b48040ab6cfca54f3bbda, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert2_normal
+    second: {fileID: 2800000, guid: 681837c4ac0854f4ca1320d7f72d6b63, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: medicineboxv3_box_blinn_baseColor
+    second: {fileID: 2800000, guid: 80364288d07193240b390332a65f1669, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: medicineboxv3_metal_blinn_baseColor
+    second: {fileID: 2800000, guid: e888e8e1b21d7824d8372e0289d9c63f, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

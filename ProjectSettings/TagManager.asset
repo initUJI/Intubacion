@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Anestesia
+  - Yodo
+  - Dedo
+  - Human
+  - Pen
+  - Vertebra
+  - Duramadre
+  - EspacioAracnoideo
+  - Interespinal
+  - Aguja
+  - Estilete
+  - TuboMuestra
+  - PuntoAposito
+  - Suelo
+  - CampanaEstetoscopio
+  - boquilla
+  - mango_laringoscopio
+  - mano
+  - canula
+  - Paciente
+  - mesa
+  - laringoscopio
+  - tubo
+  - jeringuilla
+  - enchufar
+  - ambu
+  - curva
+  - mano_quieta
+  - right
+  - left
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Grabbable
+  - 
+  - DokoDemoPainter
+  - Puncion
+  - Paciente
+  - Tubo
+  - Wire
+  - Luces
+  - NoTouchBody
+  - Body
+  - Player
+  - Floor
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

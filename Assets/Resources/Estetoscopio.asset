@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Estetoscopio
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 0e7c5821-b5d2-4d0a-a3fc-37fc917eb4f7
+    PortName: Next
+    TargetNodeGUID: 98f6caae-c41d-45aa-8385-da561d5814a4
+  - BaseNodeGUID: 1f1714da-f728-4ef3-942e-4c7535d58579
+    PortName: Cerrar
+    TargetNodeGUID: c89f2612-3d8b-4205-8a71-9394d1fbb156
+  - BaseNodeGUID: 2b3d595a-3170-4d2d-8ddc-179bf055b983
+    PortName: Cerrar
+    TargetNodeGUID: 0b3cbf1f-a478-4723-9002-a53292fb0d2f
+  - BaseNodeGUID: 3b4287d0-6c41-4b9a-9039-b9dcc13fdb61
+    PortName: Cerrar
+    TargetNodeGUID: 8332a07d-905b-445e-a0be-e4062a040102
+  - BaseNodeGUID: 98f6caae-c41d-45aa-8385-da561d5814a4
+    PortName: Normal
+    TargetNodeGUID: 1e66f9fc-fa10-4e04-8deb-c568837176bf
+  - BaseNodeGUID: 98f6caae-c41d-45aa-8385-da561d5814a4
+    PortName: Estridor
+    TargetNodeGUID: 1f1714da-f728-4ef3-942e-4c7535d58579
+  - BaseNodeGUID: 98f6caae-c41d-45aa-8385-da561d5814a4
+    PortName: Sibilancias
+    TargetNodeGUID: 2b3d595a-3170-4d2d-8ddc-179bf055b983
+  - BaseNodeGUID: 98f6caae-c41d-45aa-8385-da561d5814a4
+    PortName: CrepitantesGruesos
+    TargetNodeGUID: 3b4287d0-6c41-4b9a-9039-b9dcc13fdb61
+  - BaseNodeGUID: 98f6caae-c41d-45aa-8385-da561d5814a4
+    PortName: CrepitantesFinos
+    TargetNodeGUID: 4b8ce8e1-d5e1-4f14-94ee-8778f9888144
+  - BaseNodeGUID: 4b8ce8e1-d5e1-4f14-94ee-8778f9888144
+    PortName: Cerrar
+    TargetNodeGUID: a775ba48-12b5-4905-966d-ba7d70b35774
+  - BaseNodeGUID: 1e66f9fc-fa10-4e04-8deb-c568837176bf
+    PortName: Cerrar
+    TargetNodeGUID: 6818713d-d306-4e23-8477-ffba0b5161a4
+  DialogueNodeData:
+  - NodeGUID: 1f1714da-f728-4ef3-942e-4c7535d58579
+    DialogueText: Correcto!
+    Position: {x: 908.8, y: 130.40001}
+  - NodeGUID: 2b3d595a-3170-4d2d-8ddc-179bf055b983
+    DialogueText: Incorrecto!
+    Position: {x: 908.8, y: 256}
+  - NodeGUID: 3b4287d0-6c41-4b9a-9039-b9dcc13fdb61
+    DialogueText: Incorrecto!
+    Position: {x: 777.6, y: 376.8}
+  - NodeGUID: 98f6caae-c41d-45aa-8385-da561d5814a4
+    DialogueText: "\xBFQu\xE9 observas en el paciente?"
+    Position: {x: 291.2, y: 180}
+  - NodeGUID: 4b8ce8e1-d5e1-4f14-94ee-8778f9888144
+    DialogueText: Incorrecto!
+    Position: {x: 638.4, y: 500.8}
+  - NodeGUID: 1e66f9fc-fa10-4e04-8deb-c568837176bf
+    DialogueText: Incorrecto!
+    Position: {x: 644, y: 32.8}
+  - NodeGUID: 6818713d-d306-4e23-8477-ffba0b5161a4
+    DialogueText: CerrarDialogo
+    Position: {x: 908.8, y: -16.800001}
+  - NodeGUID: c89f2612-3d8b-4205-8a71-9394d1fbb156
+    DialogueText: CerrarDialogo
+    Position: {x: 1174.4, y: 129.6}
+  - NodeGUID: 0b3cbf1f-a478-4723-9002-a53292fb0d2f
+    DialogueText: CerrarDialogo
+    Position: {x: 1174.4, y: 256}
+  - NodeGUID: 8332a07d-905b-445e-a0be-e4062a040102
+    DialogueText: CerrarDialogo
+    Position: {x: 1065.6, y: 373.59998}
+  - NodeGUID: a775ba48-12b5-4905-966d-ba7d70b35774
+    DialogueText: CerrarDialogo
+    Position: {x: 908.8, y: 500.8}
+  ExposedProperties:
+  - PropertyName: Name
+    PropertyValue: Estetoscopio
+  CommentBlockData: []
