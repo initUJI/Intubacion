@@ -17,13 +17,14 @@ public class GameManager : MonoBehaviour
 
     void Update() {}
 
+    //Activa estado
     public void ActivarEstado(MaquinaEstados.Estado estado, string instruccion)
     {
         fsm.estadoActual = estado;
         UpdateTablet(instruccion);
     }
 
-    //---TABLET---
+    //---TABLET--- 
     void UpdateTablet(string instructions)
     {
         Text texto = tablet.GetComponentInChildren<Text>();
